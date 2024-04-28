@@ -1,0 +1,36 @@
+.body-ctn{
+    margin-top: 75px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/images/1714277544811.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.8;
+}
+
+.tagline{
+    position: absolute;
+    font-size: 42px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 150px;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 2px #000;
+}
+
+.desc{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) {
+    .tagline {
+        font-size: 32px;
+    }
+}
